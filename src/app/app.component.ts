@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  name1: string = "Your Name 1";
+  name1: string = "Arsenal";
   footballIcons1: any[] = [];
   isClickEnabled: boolean = true; // Add a flag variable
 
@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
     this.isClickEnabled = false;
     setTimeout(() => {
       this.enableClick(); // Re-enable click after a certain time (e.g., 2 seconds)
-    }, 10000); // Adjust the time duration as needed (2000 milliseconds = 2 seconds)
+    }, 2000); // Adjust the time duration as needed (2000 milliseconds = 2 seconds)
   }
 
   enableClick() {
